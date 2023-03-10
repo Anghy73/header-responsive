@@ -5,32 +5,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Header-Responsive</title>
+  <link rel="icon" href="img/icon-heart.png">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <header class="header">
-    <h1 class="header__logo">Kata<span>Prog</span></h1>
-    <nav class="header__nav">
-      <ul class="nav__content">
-        <li class="content__item">
-          <a class="item__link" href="#">HI!</a>
-        </li>
-        <li>
-          <a href="#">HI!</a>
-        </li>
-        <li>
-          <a href="#">HI!</a>
-        </li>
-        <li>
-          <a href="#">HI!</a>
-        </li>
-        <li>
-          <a href="#">HI!</a>
-        </li>
-      </ul>
-    </nav>
+    <h1 class="header__logo">Kata<span class="header__span">Prog</span></h1>
+    <div class="header__navigation">
+      <button id="burger" class="header__burger">
+        <div class="header__line header__line--one"></div>
+        <div class="header__line header__line--two"></div>
+        <div class="header__line header__line--three"></div>
+      </button>
+      <nav class="header__nav">
+        <ul class="header__content">
+          <li class="header__item">
+            <a class="header__link border" href="#">Home
+              <span class="header__rail"></span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">About
+              <span class="header__rail"></span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Blog
+              <span class="header__rail"></span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Services
+              <span class="header__rail"></span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Contact
+              <span class="header__rail"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
     <h1 class="main__title">Hola Mundo 🌍</h1>
   </main>
+  <script src="./js/script.js"></script>
 </body>
 </html>
